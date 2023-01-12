@@ -46,6 +46,7 @@ orders as (
 final as (
     select
         od.*,
+        ord.order_date,
         ord.customer,
         ord.employee,
         ord.age,
